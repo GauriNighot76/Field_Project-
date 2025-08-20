@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KrushiKart - Fresh From the Farm</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="KrushiKart.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#2C3424;">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"> KrushiKart</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="btn btn-olive ms-3" href="#">Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero d-flex align-items-center text-center text-white" style="background-image: url('');">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Fresh From the Farm</h1>
+    <p class="lead">Organic, Local & Sustainable Produce Delivered to Your Doorstep.</p>
+    <a href="#products" class="btn btn-olive btn-lg mt-3">Shop Now</a>
+  </div>
+</section>
+
+<!-- Categories -->
+<section id="categories" class="py-5 bg-aloe">
+  <div class="container text-center">
+    <h2 class="section-title mb-5">Our Fresh Picks</h2>
+    <div class="row g-4">
+      <div class="col-md-3"><div class="category-card"><img src=""><div class="overlay">Tomatoes</div></div></div>
+      <div class="col-md-3"><div class="category-card"><img src=""><div class="overlay">Mangoes</div></div></div>
+      <div class="col-md-3"><div class="category-card"><img src=""><div class="overlay">Milk</div></div></div>
+      <div class="col-md-3"><div class="category-card"><img src=""><div class="overlay">Honey</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Products -->
+<section id="products" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title mb-5">Featured Products</h2>
+    <div class="row g-4">
+      
+      <div class="col-md-3"><div class="product-card"><img src=""><h5>Organic Tomatoes</h5>
+        <p>cost / kg</p><button class="btn btn-olive">Add to Cart</button></div></div>
+      
+        <div class="col-md-3"><div class="product-card"><img src=""><h5>Fresh Mangoes</h5>
+        <p>cost / kg</p><button class="btn btn-olive">Add to Cart</button></div></div>
+      
+        <div class="col-md-3"><div class="product-card"><img src=""><h5>Farm Milk</h5>
+        <p>cost / L</p><button class="btn btn-olive">Add to Cart</button></div></div>
+      
+        <div class="col-md-3"><div class="product-card"><img src=""><h5>Pure Honey</h5>
+        <p>cost / jar</p><button class="btn btn-olive">Add to Cart</button></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section id="why" class="py-5 bg-aloe">
+  <div class="container text-center">
+    <h2 class="section-title mb-5">Why Choose KrushiKart?</h2>
+    <div class="row g-4">
+      
+      <div class="col-md-3">
+        <div class="icon-card" style="background-image:url('organic.jpg');">
+          <div class="overlay">
+            <h5>Organic Farming</h5>
+            <p>Only natural and chemical-free produce.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="icon-card" style="background-image:url('farmers.jpg');">
+          <div class="overlay">
+            <h5>From Local Farmers</h5>
+            <p>Supporting rural communities directly.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="icon-card" style="background-image:url('delivery.jpg');">
+          <div class="overlay">
+            <h5>Fast Delivery</h5>
+            <p>Fresh produce delivered within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="icon-card" style="background-image:url('eco.jpg');">
+          <div class="overlay">
+            <h5>Eco-Friendly</h5>
+            <p>Sustainable packaging & logistics.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- Newsletter -->
+<section id="newsletter" class="py-5 text-center bg-aloe">
+  <div class="container">
+    <h2 class="section-title">Subscribe to Our Newsletter</h2>
+    <p>Stay updated with our latest farm-fresh arrivals and offers.</p>
+    <form class="d-flex justify-content-center mt-3">
+      <input type="email" class="form-control w-50 me-2" placeholder="Enter your email">
+      <button class="btn btn-olive">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 text-white" style="background-color:#2C3424;">
+  <div class="container text-center">
+    <p>© 2025 KrushiKart | Fresh From the Farm</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
